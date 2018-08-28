@@ -1,8 +1,7 @@
 <!--pages/chat/chat.wxml-->
 <view>
   <view>
-    <text>你所输入的语句:</text>
-    <text>测试语句</text>
+    <text>你所输入的语句:{{messages}}</text>
   </view>
   <view>
     <text>收到回复的语句:{{response}}</text>
