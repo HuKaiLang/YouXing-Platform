@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/chat/chat",
+    "pages/index/index",
+    "pages/logs/logs"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "打字学英语",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"课程"
+    },{
+      "pagePath":"pages/logs/logs",
+      "text":"日志"
+    },{
+      "pagePath":"pages/chat/chat",
+      "text":"对话测试"
+    }]
+    },
+    "networkTimeout":{
+      "request":10000,
+      "downloadFile":10000
+    }
+}

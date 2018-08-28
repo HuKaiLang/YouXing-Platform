@@ -1,0 +1,18 @@
+<!--pages/chat/chat.wxml-->
+<view>
+  <view>
+    <text>你所输入的语句:</text>
+    <text>测试语句</text>
+  </view>
+  <view>
+    <text>收到回复的语句:{{response}}</text>
+  </view>
+  <view>
+    <text>你的临时用户ID为:{{cusId}}</text>
+  </view>
+  <input type='text' style='background:#c0c0c0;border-style:solid;border-width:2rpx;margin:5px;' placeholder='请输入要发送的信息' bindinput='inputText'></input>
+  <view>
+    <button bindtap='changeText' style='margin:5rpx'>改变文本</button>
+    <button bindtap='sendMessages' style='margin:5rpx'>发送信息</button>
+  </view>
+</view>
